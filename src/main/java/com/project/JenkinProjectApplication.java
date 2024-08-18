@@ -10,7 +10,7 @@ import jakarta.annotation.PostConstruct;
 @SpringBootApplication
 public class JenkinProjectApplication {
 
-	public static final Logger logger = LoggerFactory.getLogger(JenkinProjectApplication.class);
+	public static Logger logger = LoggerFactory.getLogger(JenkinProjectApplication.class);
 	
 	@PostConstruct
 	public void init() {
