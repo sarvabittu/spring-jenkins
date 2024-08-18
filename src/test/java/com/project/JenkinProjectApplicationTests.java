@@ -15,7 +15,7 @@ class JenkinProjectApplicationTests {
 	
 	@Test
 	void contextLoads() {
-		logger.info("Inside test class ....");
+		logger.info("Inside test class ....!");
 		assertEquals(true, true);
 	}
 
