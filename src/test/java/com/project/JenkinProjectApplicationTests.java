@@ -12,7 +12,6 @@ class JenkinProjectApplicationTests {
 
 	public static Logger logger = LoggerFactory.getLogger(JenkinProjectApplication.class);
 	
-	
 	@Test
 	void contextLoads() {
 		logger.info("Inside test class ....!");
